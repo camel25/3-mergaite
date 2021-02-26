@@ -1,0 +1,95 @@
+       main {
+           display: inline-block;
+           width: 800px;
+           background-color:#F8F8F8;
+           margin-left: calc( (100% - 800px) / 2);
+           }
+           header { 
+               display: inline-block;
+               width: 100%;
+               margin-top: 10px;
+           }
+           .logo{
+               float: left;
+               margin-left: 30px;
+               margin-top: 5px;
+           }
+           nav{
+               display: inline-block;
+               width: 45%;
+               float:right;
+               margin-top: 30px;
+           }
+           a{
+               float: left;
+               text-decoration: none;
+               font-size: 11px;
+               color: #C6C6C6;
+               margin-right: 30px;
+           }
+           .sign{
+               color: #9E9E9E;
+               font-size: 11px;
+               text-transform: uppercase;
+               border: 2px solid #9E9E9E;
+               border-radius: 30px;
+               padding-top: 2.5px;
+               padding-bottom: 2.5px;
+               padding-left: 10px;
+               padding-right: 10px;
+            
+           }
+           section{
+               display: inline-block;
+               width: 100%;
+               margin-bottom: 180px; 
+           }
+           div{
+               width: 300px;
+               float: left;
+               margin-left: 80px;
+           }
+           h1{
+               font-size: 75px;
+               margin-top: 75px;
+               margin-left: 10px;
+               margin-bottom: 0px;
+               color: #9E9E9E;
+           }
+           p{
+               font-size: 23px;
+               margin-top: 0px;
+               margin-bottom: 70px;
+               text-align: left;
+               color: #BABABA;
+           }
+           .mergaite{
+            display: inline-block; 
+            width: 360px; 
+            float: right; 
+            margin-right: 60px; 
+            margin-top: 0%;
+           }
+          
+
+           <!--
+    Kai norime elementus atvaizduoti vienoje eileje: 
+    width: 50%;                         // rasome VISIEMS elementams , kurie yra body'je (default 100%)
+    display: inline-block; (default)                // rasome VISIEMS elementams , kurie yra body'je
+    float: left ; priverstinai prispausti i kaire arba i desine, siuo atveju i kaire 
+
+    norint atstumti elementus tarpusavyje:
+    margin: 200px;                  // visomis krytpimis atsistumia per 200px
+    margin-left: 12.5%
+    margin-right: 12.5%
+    margin-top: 12.5%
+    margin-bottom: 12.5%
+
+    norint "ispusti" elementa:
+    padding: 20px;
+    padding-top: 40px
+    padding-left: 15px
+
+    Visi su tekstu susije stiliai gali buti paveldeti is tevinio.
+
+-->
